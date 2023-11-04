@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/1st-ukrainian-bussiness-ltd-landing/static/css/main.730f4f5f.css",
+    "main.js": "/1st-ukrainian-bussiness-ltd-landing/static/js/main.dcbd5943.js",
+    "static/js/415.2deb2a3a.chunk.js": "/1st-ukrainian-bussiness-ltd-landing/static/js/415.2deb2a3a.chunk.js",
+    "static/js/693.f0c06bcd.chunk.js": "/1st-ukrainian-bussiness-ltd-landing/static/js/693.f0c06bcd.chunk.js",
+    "static/js/351.29b467ac.chunk.js": "/1st-ukrainian-bussiness-ltd-landing/static/js/351.29b467ac.chunk.js",
+    "static/js/881.73cb5bf7.chunk.js": "/1st-ukrainian-bussiness-ltd-landing/static/js/881.73cb5bf7.chunk.js",
+    "static/media/Roboto-Medium.woff": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Medium.61c265591865cecb1c3d.woff",
+    "static/media/Roboto-Bold.woff": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Bold.75a1a5b5582b236e0fe3.woff",
+    "static/media/Roboto-Regular.woff": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Regular.774f99460b8c31560a3c.woff",
+    "static/media/Roboto-Medium.woff2": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Medium.70ace3870f471997ceb7.woff2",
+    "static/media/Roboto-Bold.woff2": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Bold.002079d85a6f27587d17.woff2",
+    "static/media/Roboto-Regular.woff2": "/1st-ukrainian-bussiness-ltd-landing/static/media/Roboto-Regular.9429985be4f46ec8fcfc.woff2",
+    "static/media/logo.jpg": "/1st-ukrainian-bussiness-ltd-landing/static/media/logo.a065b10d81de73dd3181.jpg",
+    "index.html": "/1st-ukrainian-bussiness-ltd-landing/index.html",
+    "main.730f4f5f.css.map": "/1st-ukrainian-bussiness-ltd-landing/static/css/main.730f4f5f.css.map",
+    "main.dcbd5943.js.map": "/1st-ukrainian-bussiness-ltd-landing/static/js/main.dcbd5943.js.map",
+    "415.2deb2a3a.chunk.js.map": "/1st-ukrainian-bussiness-ltd-landing/static/js/415.2deb2a3a.chunk.js.map",
+    "693.f0c06bcd.chunk.js.map": "/1st-ukrainian-bussiness-ltd-landing/static/js/693.f0c06bcd.chunk.js.map",
+    "351.29b467ac.chunk.js.map": "/1st-ukrainian-bussiness-ltd-landing/static/js/351.29b467ac.chunk.js.map",
+    "881.73cb5bf7.chunk.js.map": "/1st-ukrainian-bussiness-ltd-landing/static/js/881.73cb5bf7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.730f4f5f.css",
+    "static/js/main.dcbd5943.js"
+  ]
+}

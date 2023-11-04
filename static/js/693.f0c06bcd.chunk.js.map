@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/693.f0c06bcd.chunk.js","mappings":"2LAKA,UAHa,WACX,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,QACd,C","sources":["pages/Team/Team.jsx"],"sourcesContent":["import React from 'react';\n\nconst Team = () => {\n  return <div>Team</div>;\n};\nexport default Team;\n"],"names":["_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_1st_ukrainian_bussiness_ltd_landing=self.webpackChunk_1st_ukrainian_bussiness_ltd_landing||[]).push([[881],{881:function(n,s,i){i.r(s);i(791);var u=i(184);s.default=function(){return(0,u.jsx)("div",{children:"Shares"})}}}]);
+//# sourceMappingURL=881.73cb5bf7.chunk.js.map
