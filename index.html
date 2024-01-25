@@ -14,34 +14,76 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
         <nav class="header__nav">
-          <div class="header__logo">
-            <img class="header__img" src="./images/logo.jpg" alt="Logo" />
-          </div>
+          <a class="header__link header__logo link" href="./index.html"
+            ><picture>
+              <source
+                srcset="./images/logo.jpg 1x, ./images/logo@2x.jpg 2x"
+                type="image/jpeg"
+              />
+
+              <img src="./images/logo.jpg" alt="1st UB LTD logo" /> </picture
+          ></a>
+
           <ul class="header__pages">
             <li class="header__page">
-              <a href="#section-about" class="header__link">Про нас</a>
+              <a href="#section-about" class="header__link link">Про нас</a>
             </li>
             <li class="header__page">
-              <a href="#section-activity" class="header__link">Діяльність</a>
+              <a href="#section-activity" class="header__link link"
+                >Діяльність</a
+              >
             </li>
             <li class="header__page">
-              <a href="#section-team" class="header__link">Команда</a>
+              <a href="#section-team" class="header__link link">Команда</a>
             </li>
             <li class="header__page">
-              <a href="#section-contacts" class="header__link">Контакти</a>
+              <a href="#section-contacts" class="header__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header__contacts"></div>
+        <ul class="header__contacts-list">
+          <li class="header__contacts-item">
+            <a
+              target="_blank"
+              href="mailto:1st_ub@ukr.net"
+              class="header__link link"
+            >
+              <svg class="header__icon header__icon--letter">
+                <use href="./images/sprite.svg#letter"></use>
+              </svg>
+              1st_ub@ukr.net</a
+            >
+          </li>
+          <li class="header__contacts-item">
+            <a
+              target="_blank"
+              href="tel:+380979431284"
+              class="header__link link"
+              ><svg class="header__icon header__icon--phone">
+                <use href="./images/sprite.svg#phone"></use>
+              </svg>
+              +38 097 943 12 84</a
+            >
+          </li>
+        </ul>
+        <div class="header__lang">
+          <a
+            href="./index.html"
+            class="header__link header__link--lang current link"
+            >UA</a
+          >
+          <span class="header__divider">|</span>
+          <a href="./eng.html" class="header__link link">ENG</a>
+        </div>
       </div>
     </header>
 
     <section class="section" id="section-about">
       <div class="container">
         <h2 class="section__title">
-          Всім привіт, вас вітає группа британських компаній
+          Вас вітає группа британських компаній
           <span class="section__select">1ST UKRAINIAN BUSINESS LTD UA</span>
         </h2>
         <p class="section__text">
@@ -92,7 +134,9 @@
     </section>
 
     <section class="section" id="section-team">
-      <h2>Team Page</h2>
+      <div class="container">
+        <h2 class="section__title">Team Page</h2>
+      </div>
     </section>
 
     <section class="section" id="section-contacts">

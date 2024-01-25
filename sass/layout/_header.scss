@@ -1,3 +1,97 @@
 .header {
-  
+  text-align: center;
+  &__container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    width: 60px;
+    height: 40px;
+    @media screen and (min-width: $tablet) {
+      margin-right: 30px;
+      width: 80px;
+      height: 60px;
+    }
+  }
+  &__pages {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  &__link {
+    &.current {
+      color: $main-color;
+    }
+    display: flex;
+    align-items: center;
+    color: $text-color;
+    font-weight: 700;
+    padding: 20px 0px;
+    font-size: 19px;
+    line-height: 1.2;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: $tablet) {
+      font-size: 15px;
+      line-height: 1.04;
+    }
+    @media screen and (min-width: $desktop) {
+      font-size: 18px;
+      line-height: 1.14;
+      padding: 30px 0px;
+    }
+    &:hover,
+    &:focus {
+      color: $main-color;
+    }
+  }
+  &__contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__contacts-link {
+    display: flex;
+  }
+  &__icon {
+    fill: currentColor;
+    margin-right: 10px;
+
+    &--letter {
+      width: 14px;
+      height: 10px;
+
+      @media screen and (min-width: $desktop) {
+        width: 18px;
+        height: 14px;
+      }
+    }
+    &--phone {
+      width: 10px;
+      height: 14px;
+      @media screen and (min-width: $desktop) {
+        width: 22px;
+        height: 18px;
+      }
+    }
+  }
+  &__lang {
+    display: flex;
+    gap: 5px;
+
+    @media screen and (min-width: $tablet) {
+    }
+    @media screen and (min-width: $desktop) {
+    }
+  }
+  &__divider {
+    padding: 30px 0;
+  }
 }

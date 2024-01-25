@@ -1,17 +1,40 @@
+@font-face {
+  font-family: "Mulish";
+  src: local(""), url("../fonts/mulish.woff2") format("woff2"),
+    url("../fonts/mulish.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  font-optical-sizing: auto;
+}
+@font-face {
+  font-family: "Mulish";
+  src: local(""), url("../fonts/mulish-medium.woff2") format("woff2"),
+    url("../fonts/mulish-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+  font-optical-sizing: auto;
+}
+@font-face {
+  font-family: "Mulish";
+  src: local(""), url("../fonts/mulish-bold.woff2") format("woff2"),
+    url("../fonts/mulish-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+  font-optical-sizing: auto;
+}
 
-// @font-face {
-//   font-family: 'PragmaticaCTT Bold';
-//   src: local(''), url('../fonts/pragmaticactt-bold.woff2') format('woff2'),
-//     url('../fonts/pragmaticactt-bold.woff') format('woff');
-//   font-weight: 700;
-//   font-style: normal;
-//   font-display: fallback;
-// }
+$background-color: #f3f2f1;
+$secondary-background-color: #ffffff;
+$title-color: #ffffff;
+$text-color: #0b0c0c;
+$secondary-text-color: #d2e2f1;
+$main-color: #1d70b8;
+$secondary-color: #003078;
+$border-color: #b1b4b6;
 
-$background-color: #ffffff;
-$text-color: #000000;
-$border-color: #0000004d;
-$main-color: #e61919;
 $desktop: 1280px;
 $tablet: 768px;
 $phone: 480px;
